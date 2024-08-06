@@ -1,0 +1,1 @@
+export const LOGO_URL = 'https://content.jdmagicbox.com/comp/mumbai/k9/022pxx22.xx22.240117172116.p2k9/catalogue/rent-drive-andheri-west-mumbai-car-rental-f2qvd1dl21.jpg'

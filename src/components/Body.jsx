@@ -7,6 +7,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../utils/firebase";
 import { adduser, removeuser } from "../utils/userSlice";
 import { useDispatch } from "react-redux";
+import Fleets from "./Fleets";
 
 export const Body = () => {
   const dispatch = useDispatch();
@@ -23,6 +24,10 @@ export const Body = () => {
     {
       path: "/home",
       element: <Landing />,
+    },
+    {
+      path: "/fleets",
+      element: <Fleets />,
     },
   ]);
 
