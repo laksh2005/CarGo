@@ -18,11 +18,11 @@ const Header = () => {
   }
 
   return (
-    <div className="bg-black flex justify-between shadow-xl m-2">
+    <div className="bg-transparent hover:bg-black hover:bg-opacity-30 flex justify-between m-0 z-30 relative">
       <div className="logocontainer">
         <img 
          src= {LOGO_URL}
-         className="w-44"
+         className="w-44 p-2"
          />
       </div>
       <div className="flex items-center">
