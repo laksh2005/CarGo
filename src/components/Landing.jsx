@@ -4,6 +4,7 @@ import MainContainer from './MainContainer';
 import Features from './Features';
 import Process from './Process';
 import Areas from './Areas';
+import Faqs from './Faqs';
 
 const Landing = () => {
   return (
@@ -13,6 +14,7 @@ const Landing = () => {
       <Features />
       <Process />
       <Areas />
+      <Faqs />
     </div>
   )
 }

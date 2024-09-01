@@ -66,7 +66,7 @@ const Login = () => {
         <img src="https://www.mychoize.com/_next/static/media/login_bg.9b366799.jpg" alt="background" />
       </div>
       <form
-        className="bg-black text-white rounded-lg bg-opacity-65 absolute p-12 w-3/12 mx-auto my-20 mr-[300px] right-0 left-0"
+        className="bg-black text-white rounded-lg bg-opacity-65 absolute p-12 w-3/12 mx-auto my-20  mr-[300px] right-0 left-0"
         onSubmit={(e) => e.preventDefault()}
       >
         <h1 className="font-bold text-3xl py-4">{isSignUpForm ? "Sign Up" : "Sign In"}</h1>

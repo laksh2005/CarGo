@@ -8,6 +8,8 @@ import { auth } from "../utils/firebase";
 import { adduser, removeuser } from "../utils/userSlice";
 import { useDispatch } from "react-redux";
 import Fleets from "./Fleets";
+import ContactUs from "./ContactUs";
+import Form from "./Form";
 
 export const Body = () => {
   const dispatch = useDispatch();
@@ -28,6 +30,14 @@ export const Body = () => {
     {
       path: "/fleets",
       element: <Fleets />,
+    },
+    {
+      path: "/contact",
+      element: <ContactUs />,
+    },
+    {
+      path: '/booking',
+      element: <Form />,
     },
   ]);
 
