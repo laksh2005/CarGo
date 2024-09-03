@@ -6,3 +6,5 @@ export const BENE_1 = 'https://www.mychoize.com/mychoize-live/current/revamap_im
 export const BENE_2 = 'https://www.mychoize.com/mychoize-live/current/revamap_img/benifit_icon_2.svg'
 export const BENE_3 = 'https://www.mychoize.com/mychoize-live/current/revamap_img/benifit_icon_3.svg'
 export const BENE_4 = 'https://www.mychoize.com/mychoize-live/current/revamap_img/benifit_icon_4.svg'
+
+export const HELP_BG = 'https://www.mychoize.com/mychoize-live/current/imgs/banners/sliders/web-240705124259787458.jpg';

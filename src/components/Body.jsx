@@ -10,6 +10,7 @@ import { useDispatch } from "react-redux";
 import Fleets from "./Fleets";
 import ContactUs from "./ContactUs";
 import Form from "./Form";
+import AboutUs from "./AboutUs";
 
 export const Body = () => {
   const dispatch = useDispatch();
@@ -38,6 +39,10 @@ export const Body = () => {
     {
       path: '/booking',
       element: <Form />,
+    },
+    {
+      path: '/about',
+      element: <AboutUs />,
     },
   ]);
 
