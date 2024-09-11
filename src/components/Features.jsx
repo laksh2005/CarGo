@@ -3,7 +3,7 @@ import { BENE_1, BENE_2, BENE_3, BENE_4 } from "../utils/constants"
 
 const Features = () => {
   return (
-<div className="px-8 py-20 text-center bg-grayt2100">
+<div className="px-8 py-20 text-center bg-gray-100">
     <h1 className="font-bold text-4xl text-violet-900 mb-12">
         Features & Benefits
     </h1>

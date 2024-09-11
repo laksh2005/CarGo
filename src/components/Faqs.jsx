@@ -8,7 +8,7 @@ const Faqs = () => {
             <span className="text-black">F</span>requently
             <span className="text-black"> A</span>sked 
             <span className="text-black"> Q</span>uestions :
-            </h1>
+        </h1>
         <div className="px-10 w-7/12 ques-container text-left">
             <div className="px-6 py-1 mb-2 hover:bg-gray-300 rounded-lg border border-purple-500 hover:bg-violet-300">
                 <h2 className="w-6/12 font-bold my-6 text-lg">What is CarGo car rental service?</h2>
